@@ -1,0 +1,109 @@
+
+/*.fr{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    overflow: initial;
+    position: absolute;
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+    top: 70px;
+    left: 30%;
+    position: absolute;
+    
+}
+
+.naz{
+   position: relative;
+   top: 120px;
+   
+  
+}
+.naz5{
+    position: relative;
+    top: 150px;
+}
+
+.naz2{
+    position: fixed;
+    top: 10px;
+    left:400px;
+    
+}
+ 
+p{
+    font-weight: 550;
+    font-family: arial;
+}*/
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  font-family: serif;
+  background-image: url(src/R.jpeg);
+  background-repeat: no-repeat;
+  color:#106069;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 400px;
+  line-height: 2rem;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgb(214, 240, 248, 0.2);
+  appearance: none;
+  width:600px;
+  padding: 15px;
+}
+
+h1{
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #106069;
+}
+input {
+  padding: 7px;
+  margin-bottom: 10px;
+  border: none;
+  color: #106069;
+  border-radius: 50px;
+  background-color: rgb(226, 226, 239, 0.5);
+}
+
+#submit{
+color: #106069;
+padding: 10px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.select{
+  color: #106069;
+  background-color: rgb(226, 226, 239, 0.3);
+  border: none;
+  border-radius: 10px;
+  padding:5px;
+  font-size: 14px;
+}
+
+@media screen and (max-width:300px){
+  form{
+      min-width:300px;
+      font-size: 25px;
+      font-weight: 700;
+  }
+  input{
+      padding: 18px;
+  }
+}
