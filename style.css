@@ -125,6 +125,9 @@ font-weight: bold;
       min-width: 300px;
       display: block;
   }
+  p{
+    min-width: 350px;
+  }
   input{
       padding: 18px;
   }
@@ -150,6 +153,9 @@ font-weight: bold;
         font-weight: 700;
         margin: 50px auto ;
         display: block;
+    }
+    p{
+      min-width: 500px;
     }
     input{
         padding: 16px;
