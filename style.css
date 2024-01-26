@@ -64,7 +64,6 @@ body{
   font-weight: bold;
   background-color: rgb(214, 240, 248, 0.2);
   width: 400px;
-  height: 100vh;
   border-radius: 10px;
   padding:5px;
 }
@@ -104,7 +103,7 @@ font-weight: bold;
 }
 
 
-@media (min-width:300px)and (max-width: 499px){
+@media (min-width:270px)and (max-width: 499px){
   background-image{
       background-size: cover;
       display: flex;
@@ -115,7 +114,7 @@ font-weight: bold;
     flex-wrap: wrap;
     justify-content: center;
     line-height: center;
-      min-width: 300px;
+      min-width: 270px;
       font-size: 20px;
       font-weight: 700;
       margin: 0 auto ;
@@ -136,6 +135,7 @@ font-weight: bold;
 
     #form{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         line-height: center;
         min-width: 500px;
