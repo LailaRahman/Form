@@ -62,7 +62,7 @@ body{
   font-size: 1em;
   font-weight: bold;
   background-color: rgb(214, 240, 248, 0.2);
-  width: 300px;
+  width: 350px;
   height: 100vh;
   border-radius: 10px;
   padding:5px;
@@ -111,7 +111,9 @@ font-weight: bold;
   }
 
   #form{
-      display: block;
+    display: flex;
+    justify-content: center;
+    line-height: center;
       min-width: 300px;
       font-size: 20px;
       font-weight: 700;
