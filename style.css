@@ -103,7 +103,7 @@ font-weight: bold;
 }
 
 
-@media (min-width:250px)and (max-width: 499px){
+@media (min-width:310px)and (max-width: 499px){
   background-image{
       background-size: cover;
       display: flex;
@@ -114,7 +114,7 @@ font-weight: bold;
     flex-wrap: wrap;
     justify-content: center;
     line-height: center;
-      min-width: 250px;
+      min-width: 310px;
       font-size: 20px;
       font-weight: 700;
       margin: 50px auto 20px auto ;
