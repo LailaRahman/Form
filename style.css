@@ -58,7 +58,7 @@ body{
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin: 50px auto 50px auto ;
+  margin: 70px auto 50px auto ;
   line-height: 2rem;
   font-size: 1em;
   font-weight: bold;
@@ -103,7 +103,7 @@ font-weight: bold;
 }
 
 
-@media (min-width:270px)and (max-width: 499px){
+@media (min-width:290px)and (max-width: 499px){
   background-image{
       background-size: cover;
       display: flex;
@@ -114,10 +114,11 @@ font-weight: bold;
     flex-wrap: wrap;
     justify-content: center;
     line-height: center;
-      min-width: 270px;
+      min-width: 290px;
       font-size: 20px;
       font-weight: 700;
-      margin: 20px auto 0 auto;
+      margin: 50px auto 20px auto ;
+      height: 100vh;
   }
   input{
       padding: 18px;
@@ -141,7 +142,8 @@ font-weight: bold;
         min-width: 500px;
         font-size: 20px;
         font-weight: 700;
-        margin: 0 auto;
+        margin: 50px auto 20px auto ;
+        height: 100vh;
     }
     input{
         padding: 16px;
