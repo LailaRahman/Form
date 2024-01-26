@@ -107,7 +107,6 @@ font-weight: bold;
   
   background-image{
       background-size: cover;
-      height: 100vh;
   }
   body{
     display: flex;
@@ -115,7 +114,6 @@ font-weight: bold;
     justify-content: center;
     line-height: center;
     margin: 0 auto;
-    height: 100vh;
     min-width: 350px;
   }
 
@@ -134,7 +132,6 @@ font-weight: bold;
 }
 @media (max-width: 900px)and (min-width: 500px){
     background-image{
-        height: 100vh;
         background-size: cover;
     }
     body{
@@ -144,7 +141,6 @@ font-weight: bold;
       line-height: center;
       margin: 0 auto;
       min-width: 500px;
-      height: 100vh;
     }
 
     #form{
