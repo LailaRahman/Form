@@ -117,7 +117,7 @@ font-weight: bold;
     flex-wrap: wrap;
     justify-content: center;
     line-height: center;
-      min-width: 320px;
+      min-width: 280px;
       font-size: 20px;
       font-weight: 700;
       margin: 50px auto 20px auto ;
@@ -145,7 +145,7 @@ body{
         flex-wrap: wrap;
         justify-content: center;
         line-height: center;
-        min-width: 520px;
+        min-width: 480px;
         font-size: 20px;
         font-weight: 700;
         margin: 50px auto 20px auto ;
