@@ -115,6 +115,7 @@ font-weight: bold;
     justify-content: center;
     line-height: center;
     margin: 0 auto;
+    height: 100vh;
   }
 
   #form{
@@ -122,7 +123,6 @@ font-weight: bold;
       font-size: 20px;
       font-weight: 700;
       margin: 50px auto;
-      height: 100vh;
   }
   input{
       padding: 18px;
@@ -142,13 +142,13 @@ font-weight: bold;
       justify-content: center;
       line-height: center;
       margin: 0 auto;
+      height: 100vh;
     }
 
     #form{
         font-size: 20px;
         font-weight: 700;
         margin: 50px auto ;
-        height: 100vh;
     }
     input{
         padding: 16px;
