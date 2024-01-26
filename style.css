@@ -103,7 +103,7 @@ font-weight: bold;
 }
 
 
-@media (min-width: 300px)and (max-width: 499px){
+@media (min-width: 350px)and (max-width: 499px){
   
   background-image{
       background-size: cover;
@@ -116,7 +116,7 @@ font-weight: bold;
     line-height: center;
     margin: 0 auto;
     height: 100vh;
-    min-width: 300px;
+    min-width: 350px;
   }
 
   #form{
