@@ -49,6 +49,7 @@ body{
   background-image: url(src/R.jpeg);
   background-repeat: no-repeat;
   color:white;
+  overflow: none;
   
 }
 
@@ -57,12 +58,12 @@ body{
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin: 100px auto 100px auto ;
+  margin: 50px auto 100px auto ;
   line-height: 2rem;
   font-size: 1em;
   font-weight: bold;
   background-color: rgb(214, 240, 248, 0.2);
-  width: 350px;
+  width: 400px;
   height: 100vh;
   border-radius: 10px;
   padding:5px;
