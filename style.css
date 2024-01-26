@@ -104,12 +104,16 @@ font-weight: bold;
 
 @media (max-width:300px){
   background-image{
+    height: 100vh;
       background-size: cover;
   }
   body{
       height: 100vh;
   }
   #form{
+      display: flex;
+      justify-content: center;
+      line-height: center;
       max-width: 250px;
       font-size: 20px;
       font-weight: 700;
@@ -128,7 +132,7 @@ font-weight: bold;
         display: flex;
         justify-content: center;
         line-height: center;
-        min-width: 400px;
+        min-width: 500px;
         font-size: 20px;
         font-weight: 700;
     }
